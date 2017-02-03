@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Practice_3_1 {
+   public static void main(String[] args){
+   
+   int test1, test2, test3, test4, min = 0, max = 100;
+   
+   Scanner scan = new Scanner(System.in);
+   System.out.println("Enter your four most recent test scores: ");
+   test1 = scan.nextInt();
+   test2 = scan.nextInt();
+   test3 = scan.nextInt();
+   test4 = scan.nextInt();
+   
+   System.out.println("The test scores entered were: " + test1 + ", " + test2 +", " + test3 + ", " + test4);
+ 
+   }
+   }
+   
+   
+   
